@@ -24,7 +24,6 @@ python3 -m uvicorn app:app --host 0.0.0.0 --port 80
 chmod +x /home/ec2-user/run_fastapi.sh
 chown ec2-user:ec2-user /home/ec2-user/run_fastapi.sh
 
-
 # Create a systemd service for your FastAPI application
 echo '[Unit]
 Description=FastAPI application

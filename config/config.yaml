@@ -8,8 +8,8 @@ dev:
     nat_gateways: # Add your numer of NAT Gateways, value is an integer. Recommended value is 1.
   ec2:
     ami: "" # Add the AMI ID
-    instance_type: "" # Add the size of instance fot example t2.micro
-    ebs: # Add EBS volume - this needs to be integer for example 20, value is in GB
+    instance_type: "" # Add the size of instance for example t2.micro
+    ebs: # Add EBS volume size - this needs to be an integer for example 20, value is in GB
   app_name: "" # Add name of your app
   account: "" # Add your AWS Account ID
   region: "" # Add your region
