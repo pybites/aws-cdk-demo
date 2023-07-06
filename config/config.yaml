@@ -1,0 +1,15 @@
+---
+description: "" # Add description of the stack for example App stack
+dev:
+  create_new_vpc: # Add True of False depending if you want to create new VPC
+  vpc:
+    max_azs: 3
+    vpc_cidr: "" # Add your VPC CIDR for example 10.1.0.0/16
+    nat_gateways: 1
+  ec2:
+    ami: "" # Add the AMI ID
+    instance_type: "" # Add the size of instance fot example t2.micro
+    ebs: # Add EBS volume - this needs to be integer for example 20, value is in GB
+  app_name: "" # Add name of your app
+  account: "" # Add your AWS Account ID
+  region: "" # Add your region
