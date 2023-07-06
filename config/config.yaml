@@ -3,9 +3,9 @@ description: "" # Add description of the stack for example App stack
 dev:
   create_new_vpc: # Add True of False depending if you want to create new VPC
   vpc:
-    max_azs: 3
+    max_azs: # Add max Availability Zone, value is an integer. Recommended value is 3
     vpc_cidr: "" # Add your VPC CIDR for example 10.1.0.0/16
-    nat_gateways: 1
+    nat_gateways: # Add your numer of NAT Gateways, value is an integer. Recommended value is 1.
   ec2:
     ami: "" # Add the AMI ID
     instance_type: "" # Add the size of instance fot example t2.micro
